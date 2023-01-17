@@ -15,14 +15,13 @@ document.addEventListener('DOMContentLoaded', function() {
           }
         },
 
-        events:baseURL+"/citas/mostrar",
-    //   eventSources:{
-    //     url:baseURL+"/citas/mostrar",
-    //     method:"POST",
-    //     extraParams: {
-    //         _token:formulario._token.value
-    //     }
-    //   },
+        eventSources:{
+          url:baseURL+"/citas/mostrar",
+          method:"POST",
+          extraParams: {
+              _token:formulario._token.value
+          }
+        },
 
         dateClick: function(info){
             var events = calendar.getEvents();

@@ -2,13 +2,13 @@
 
 @section('content')
     
-<div class="container">
-    <div id="calendar"></div>
-</div>
+  <div class="container">
+      <div id="calendar"></div>
+  </div>
 
 <!-- Modal Body -->
 <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
-<div class="modal fade" id="formulario" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+  <div class="modal fade" id="formulario" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
     <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -83,5 +83,5 @@
             </div>
         </div>
     </div>
-</div>
+  </div>
 @endsection

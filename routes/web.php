@@ -22,7 +22,7 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/citas', [CitasController::class, 'index']);
-Route::get('/citas/mostrar', [CitasController::class, 'show']);
+Route::post('/citas/mostrar', [CitasController::class, 'show']);
 Route::post('/citas/guardar', [CitasController::class, 'store']);
 Route::post('/citas/editar/{id}', [CitasController::class, 'edit']);
 Route::post('/citas/actualizar/{citas}', [CitasController::class, 'update']);
